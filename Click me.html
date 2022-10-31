@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #C9C3FA;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #4435B6;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #150F46;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://www.youtube.com/channel/UCzhLFpn57fgpf9OEDVKRaBg/about">About</a>
+  <a href="https://www.youtube.com/channel/UCzhLFpn57fgpf9OEDVKRaBg/playlists">Playlists</a>
+  <a href="#Image Gallery">Image Gallery</a>
+  <a href="#Contact">Contact</a>
+</div>
+
+<div class="main">
+<!DOCTYPE html>
+<body background="bg.png">
+<font face="Arial">
+<head>
+<link rel="image/png" href="Alex.png">
+<title> Alex </title>
+<link rel="icon" type="image/icon" href="/images/me.ico">
+<!--RGB-->
+<center><p><font size="7"><font color="#0000C0">Welcome To My Site!</font></font></p></center>
+</head>
+<body>
+<button type="button" onclick="alert('Thank you for clicking me but nothing happens!!!!')">Click Me!</button>
+<p><i><b><u><font size="5">Hello World!</u><sup>Awesome</sup><sub>Graet</sub></font></b></i>
+<img width="80" height="80" src="Alex.png">
+<BR>
+<BR>
+<p>Click Here👇
+<BR>
+<a href="https://www.youtube.com/channel/UCzhLFpn57fgpf9OEDVKRaBg"><IMG src="youtube icon.png"></a>
+<BR>
+<video width="320" height="240" controls>
+<source src="good.mp4" type="video/mp4">
+</video>👉
+<audio controls>
+<source src="s.mp3" type="audio/mpeg">
+</audio>
+</body>
+<HR>
+</font>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.75; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2><a name="Image Gallery">Image Gallery</a></h2>
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img_nature.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<iframe src="https://alexprofile2122.weebly.com/" width=500 height=500 title="description"></iframe>
+<footer>
+<a name="Contact"><center><b><h2>Contact</h2></b></center></a>
+<p>IG:<a href="https://www.instagram.com/alexdeng_0119/">@alexdeng_0119</a>
+<p>Email:<a herf="mailto:alexdeng0119@gmail.com">alexdeng0119@gmail.com</a>
+</footer>
+</body>
+</html>
+</div>
+</body>
+</html> 
+
